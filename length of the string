@@ -1,0 +1,7 @@
+p=(input("enter string ="))
+count=0
+
+for i in p:
+    print(i)
+    count=count+1
+print("the length of string=",count)
