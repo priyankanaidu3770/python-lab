@@ -6,3 +6,17 @@ for i in range(n):
 print(l)
 print(sum(l))
 print(sum(l)/len(l))
+
+
+
+
+output:
+       enter no.of values= 5
+enter an element= 12
+enter an element= 13
+enter an element= 45
+enter an element= 67
+enter an element= 809
+[12, 13, 45, 67, 809]
+946
+189.2
