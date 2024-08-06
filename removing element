@@ -1,0 +1,20 @@
+l=[]
+n=int(input("enter no.of values= "))
+for i in range(n):
+    ele=int(input("enter an element= "))
+    l.append(ele)
+print(l)
+p=int(input("enter the element to be removed="))
+l.remove(p)
+print(l)
+
+output:
+       enter no.of values= 5
+enter an element= 1
+enter an element= 2
+enter an element= 3
+enter an element= 4
+enter an element= 5
+[1, 2, 3, 4, 5]
+enter the element to be removed=5
+[1, 2, 3, 4]
