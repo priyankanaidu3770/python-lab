@@ -1,0 +1,11 @@
+s=input("enter a string").split()
+for i in s:
+    if len(i)%2==0:
+         print(i)
+output:
+      enter a stringi am good
+am
+good
+
+
+         
