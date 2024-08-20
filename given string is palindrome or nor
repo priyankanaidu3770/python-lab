@@ -1,0 +1,14 @@
+s=input("enter a string ")
+rev_str=""
+for i in s:
+    rev_str=i+rev_str
+print("reversed string: ",rev_str)
+if(s==rev_str):
+    print("palindrome")
+else:
+    print("not a palindrome")    
+
+o/p:
+enter a string priya
+reversed string:  ayirp
+not a palindrome
