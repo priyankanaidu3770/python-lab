@@ -4,5 +4,5 @@ print("add,sub,mul,div are:")
 print(*fun(30,10),sep=",")
 
 o/p:
-add,sub,mul,div,modulo are:
+add,sub,mul,div are:
 40,20,300,3.0
