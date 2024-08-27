@@ -1,9 +1,8 @@
 def fun(a,b):
      return(a+b,a-b,a*b,a/b)
-fun(10,2)
+print("add,sub,mul,div are:")
+print(*fun(30,10),sep=",")
 
 o/p:
-12
-8
-20
-5.0
+add,sub,mul,div,modulo are:
+40,20,300,3.0
