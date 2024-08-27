@@ -1,0 +1,9 @@
+def fun(a,b):
+     return(a+b,a-b,a*b,a/b)
+fun(10,2)
+
+o/p:
+12
+8
+20
+5.0
