@@ -1,0 +1,8 @@
+l=[1,2,3,4,9,5,8]
+def seclargest(l):
+    l.sort()
+    return[-2]
+print(seclargest(l))    
+
+o/p:
+8
