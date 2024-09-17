@@ -1,0 +1,19 @@
+def rfactorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * rfactorial(n - 1)
+        
+num = int(input("enter a number: "))
+if num <0:
+    print("sorry, factorial does not exist for negative numbers")
+else:
+    print("the factorial of",num,"is",rfactorial(num))                 
+
+output:
+
+enter a number: 3
+the factorial of 3 is 6
+
+enter a number: -5
+sorry, factorial does not exist for negative numbers
